@@ -28,4 +28,5 @@ func main() {
 	for _, nome := range nomes { //Trocar o UNDERLINE POR UMA VARIAVEL PARA CARREGAR O INDICE
 		fmt.Println(nome) //ADD A VARIAVEL DE INDICE CRIADA AQUI
 	}
+
 }
