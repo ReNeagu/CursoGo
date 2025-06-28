@@ -6,7 +6,7 @@ func main() {
 	fmt.Println("Maps")
 
 	usuario := map[string]string{ //Primeiro String é a Formato da Chave segundo é o valor da Chave
-		"nome":      "Pedro",
+		"nome":      "Renato",
 		"sobrenome": "Silva",
 	}
 
@@ -15,7 +15,7 @@ func main() {
 
 	usuario2 := map[string]map[string]string{
 		"nome": {
-			"primeiro":  "Elisa",
+			"primeiro":  "Karen",
 			"sobrenome": "Neagu",
 		},
 		"curso": {
