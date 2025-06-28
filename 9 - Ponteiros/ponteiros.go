@@ -24,6 +24,6 @@ func main() {
 	fmt.Println(variavel3, ponteiro)
 	fmt.Println(variavel3, *ponteiro) //DESFERENCIAÇÃO
 
-	//teste
+	
 
 }
