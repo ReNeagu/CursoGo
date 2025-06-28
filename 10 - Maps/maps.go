@@ -16,7 +16,7 @@ func main() {
 	usuario2 := map[string]map[string]string{
 		"nome": {
 			"primeiro":  "Elisa",
-			"sobrenome": "Silva",
+			"sobrenome": "Neagu",
 		},
 		"curso": {
 			"nome":   "Engenharia",
