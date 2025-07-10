@@ -15,7 +15,7 @@ func Conectar() (*sql.DB, error) {
 	porta := "3306"
 	banco := "testdb"
 
-	stringConexao := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local",
+	stringConexao := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=true&loc=Local",
 		usuario, senha, host, porta, banco)
 
 	db, erro := sql.Open("mysql", stringConexao)
